@@ -26,12 +26,26 @@ class _206_反转链表: BaseClass {
         }
         startTiming()
         
-        print(reverseList(<#T##head: ListNode?##ListNode?#>))
+        let head    = ListNode(4)
+        let first   = ListNode(5)
+        let second  = ListNode(1)
+        let third   = ListNode(9)
+        
+        head.next   = first
+        first.next  = second
+        second.next = third
+        
+        print(head)
+        print(reverseList(head)! as Any)
     }
     
+    /// 递归实现
     static func reverseList(_ head: ListNode?) -> ListNode? {
-        guard let head = head else { return nil }
-        head
+        guard head != nil && head?.next != nil else { return head }
+        let newHead = reverseList(head?.next)
+        head?.next?.next = head
+        head?.next = nil
+        return newHead
     }
     
     

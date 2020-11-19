@@ -12,4 +12,5 @@ import Foundation
 //最长公共前缀.run()
 //有效的括号.run()
 //检测大写字母.run()
-_2的幂.run()
+//_2的幂.run()
+_206_反转链表.run()

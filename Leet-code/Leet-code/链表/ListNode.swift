@@ -8,11 +8,23 @@
 
 import Cocoa
 
-public class ListNode {
+public class ListNode: NSObject {
     public var val: Int
     public var next: ListNode?
     public init(_ val: Int) {
         self.val = val
         self.next = nil
+    }
+    
+    public override var description: String {
+        var prin: String = "["
+        var nextNode: ListNode? = self
+        while nextNode != nil {
+            prin += " \(nextNode!.val) ->"
+            nextNode = nextNode?.next
+        }
+        
+        prin = String(prin.prefix(prin.count - 2))
+        return prin + "]"
     }
 }
