@@ -1,9 +1,12 @@
 //
-//  检测大写字母.swift
+//  _520_检测大写字母.swift
 //  Leet-code
 //
 //  Created by 任成 on 2020/9/14.
 //  Copyright © 2020 任成. All rights reserved.
+//
+//
+//  https://leetcode-cn.com/problems/detect-capital
 //
 //  给定一个单词，你需要判断单词的大写使用是否正确。
 //
@@ -26,7 +29,7 @@
 
 import Cocoa
 
-class 检测大写字母: BaseClass {
+class _520_检测大写字母: BaseClass {
     
     override class func run() {
         super.run()

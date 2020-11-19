@@ -1,9 +1,12 @@
 //
-//  最长公共前缀.swift
+//  _14_最长公共前缀.swift
 //  Leet-code
 //
 //  Created by 任成 on 2020/9/10.
 //  Copyright © 2020 任成. All rights reserved.
+//
+//
+//  https://leetcode-cn.com/problems/longest-common-prefix
 //
 //  编写一个函数来查找字符串数组中的最长公共前缀。
 //
@@ -24,7 +27,7 @@
 
 import Cocoa
 
-class 最长公共前缀: BaseClass {
+class _14_最长公共前缀: BaseClass {
     
     override class func run() {
         super.run()

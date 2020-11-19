@@ -1,9 +1,12 @@
 //
-//  2的幂.swift
+//  _231_2的幂.swift
 //  Leet-code
 //
 //  Created by 任成 on 2020/9/14.
 //  Copyright © 2020 任成. All rights reserved.
+//
+//
+//  https://leetcode-cn.com/problems/power-of-two
 //
 //  给定一个整数，编写一个函数来判断它是否是 2 的幂次方。
 //
@@ -27,7 +30,7 @@
 
 import Cocoa
 
-class _2的幂: BaseClass {
+class _231_2的幂: BaseClass {
     
     override class func run() {
         super.run()
