@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AF188F2E256B8A5000EBFF4D /* _203_删除链表元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF188F2D256B8A5000EBFF4D /* _203_删除链表元素.swift */; };
+		AF188F31256B8AB000EBFF4D /* _83_删除排序链表中的重复元素.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF188F30256B8AB000EBFF4D /* _83_删除排序链表中的重复元素.swift */; };
+		AF188F35256B99E200EBFF4D /* _876_链表的中间结点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF188F34256B99E200EBFF4D /* _876_链表的中间结点.swift */; };
 		AF22A9FE250A443C006672EC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22A9FD250A443C006672EC /* main.swift */; };
 		AF22AA05250A47C6006672EC /* _14_最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA04250A47C6006672EC /* _14_最长公共前缀.swift */; };
 		AF22AA07250A4878006672EC /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA06250A4878006672EC /* _20_有效的括号.swift */; };
@@ -15,6 +18,7 @@
 		AF22AA15250B12FC006672EC /* Perform.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA14250B12FC006672EC /* Perform.swift */; };
 		AF22AA17250F17AF006672EC /* _520_检测大写字母.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA16250F17AF006672EC /* _520_检测大写字母.swift */; };
 		AF22AA19250F1C45006672EC /* _231_2的幂.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA18250F1C45006672EC /* _231_2的幂.swift */; };
+		AF32B2FD256B856F0097A0FA /* _141_环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32B2FC256B856F0097A0FA /* _141_环形链表.swift */; };
 		AF636E88256570580061E615 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E87256570580061E615 /* _206_反转链表.swift */; };
 		AF636E93256605FE0061E615 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E92256605FE0061E615 /* ListNode.swift */; };
 		AF636ECF25663A630061E615 /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */; };
@@ -33,6 +37,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AF188F2D256B8A5000EBFF4D /* _203_删除链表元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_203_删除链表元素.swift"; sourceTree = "<group>"; };
+		AF188F30256B8AB000EBFF4D /* _83_删除排序链表中的重复元素.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_83_删除排序链表中的重复元素.swift"; sourceTree = "<group>"; };
+		AF188F34256B99E200EBFF4D /* _876_链表的中间结点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_876_链表的中间结点.swift"; sourceTree = "<group>"; };
 		AF22A9FA250A443C006672EC /* Leet-code */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Leet-code"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AF22A9FD250A443C006672EC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		AF22AA04250A47C6006672EC /* _14_最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_14_最长公共前缀.swift"; sourceTree = "<group>"; };
@@ -42,6 +49,7 @@
 		AF22AA14250B12FC006672EC /* Perform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perform.swift; sourceTree = "<group>"; };
 		AF22AA16250F17AF006672EC /* _520_检测大写字母.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_520_检测大写字母.swift"; sourceTree = "<group>"; };
 		AF22AA18250F1C45006672EC /* _231_2的幂.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_231_2的幂.swift"; sourceTree = "<group>"; };
+		AF32B2FC256B856F0097A0FA /* _141_环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_环形链表.swift"; sourceTree = "<group>"; };
 		AF636E87256570580061E615 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		AF636E92256605FE0061E615 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
@@ -127,6 +135,10 @@
 			children = (
 				AF636E87256570580061E615 /* _206_反转链表.swift */,
 				AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */,
+				AF32B2FC256B856F0097A0FA /* _141_环形链表.swift */,
+				AF188F2D256B8A5000EBFF4D /* _203_删除链表元素.swift */,
+				AF188F30256B8AB000EBFF4D /* _83_删除排序链表中的重复元素.swift */,
+				AF188F34256B99E200EBFF4D /* _876_链表的中间结点.swift */,
 				AF636E92256605FE0061E615 /* ListNode.swift */,
 			);
 			path = "链表";
@@ -196,10 +208,14 @@
 				AF22AA13250B12C4006672EC /* BaseClass.swift in Sources */,
 				AF22AA19250F1C45006672EC /* _231_2的幂.swift in Sources */,
 				AF636ECF25663A630061E615 /* _237_删除链表中的节点.swift in Sources */,
+				AF32B2FD256B856F0097A0FA /* _141_环形链表.swift in Sources */,
 				AF636E88256570580061E615 /* _206_反转链表.swift in Sources */,
 				AF22AA07250A4878006672EC /* _20_有效的括号.swift in Sources */,
 				AF22AA05250A47C6006672EC /* _14_最长公共前缀.swift in Sources */,
+				AF188F2E256B8A5000EBFF4D /* _203_删除链表元素.swift in Sources */,
 				AF22A9FE250A443C006672EC /* main.swift in Sources */,
+				AF188F31256B8AB000EBFF4D /* _83_删除排序链表中的重复元素.swift in Sources */,
+				AF188F35256B99E200EBFF4D /* _876_链表的中间结点.swift in Sources */,
 				AF636E93256605FE0061E615 /* ListNode.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

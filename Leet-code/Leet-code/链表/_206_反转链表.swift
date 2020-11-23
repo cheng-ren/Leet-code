@@ -36,7 +36,7 @@ class _206_反转链表: BaseClass {
         second.next = third
         
         print(head)
-        print(reverseList(head)! as Any)
+        print(reverseList1(head)! as Any)
     }
     
     /// 递归实现
@@ -45,6 +45,28 @@ class _206_反转链表: BaseClass {
         let newHead = reverseList(head?.next)
         head?.next?.next = head
         head?.next = nil
+        return newHead
+    }
+    
+    /// head -> [ 4 -> 5 -> 1 -> 9 ]
+    /// new -> []
+    ///
+    /// head  -> [ 5 -> 1 -> 9 ]
+    /// new   -> [ 4 ]
+    ///
+    /// head  -> [ 1 -> 9 ]
+    /// new   -> [ 5 -> 4 ]
+    ///
+    /// 非递归实现
+    static func reverseList1(_ head: ListNode?) -> ListNode? {
+        var head = head
+        var newHead: ListNode?
+        while head != nil {
+            let tmp = head?.next
+            head?.next = newHead
+            newHead = head
+            head = tmp
+        }
         return newHead
     }
     
