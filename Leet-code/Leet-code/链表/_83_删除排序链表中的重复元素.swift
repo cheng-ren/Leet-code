@@ -31,19 +31,28 @@ class _83_删除排序链表中的重复元素: BaseClass {
         }
         startTiming()
         
-        let head = ListNode(4)
-        let first = ListNode(5)
-        let second = ListNode(1)
-        let third = ListNode(9)
+        let head = ListNode(1)
+        let first = ListNode(2)
+        let second = ListNode(2)
+        let third = ListNode(3)
         head.next = first
         first.next = second
         second.next = third
-        third.next = first
         
         print(deleteDuplicates(head))
     }
     
     static func deleteDuplicates(_ head: ListNode?) -> ListNode? {
-        x
+        guard head != nil else { return nil }
+        var nextNode = head
+        while nextNode?.next != nil {
+            if nextNode?.val == nextNode?.next?.val {
+                nextNode?.val = nextNode!.next!.val
+                nextNode?.next = nextNode?.next?.next
+            } else {
+                nextNode = nextNode?.next
+            }
+        }
+        return head
     }
 }
