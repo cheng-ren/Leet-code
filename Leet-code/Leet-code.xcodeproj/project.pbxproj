@@ -22,6 +22,7 @@
 		AF636E88256570580061E615 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E87256570580061E615 /* _206_反转链表.swift */; };
 		AF636E93256605FE0061E615 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E92256605FE0061E615 /* ListNode.swift */; };
 		AF636ECF25663A630061E615 /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */; };
+		AF98F9BF257267DB001E1234 /* _232_用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98F9BE257267DB001E1234 /* _232_用栈实现队列.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -53,6 +54,7 @@
 		AF636E87256570580061E615 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		AF636E92256605FE0061E615 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
+		AF98F9BE257267DB001E1234 /* _232_用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_232_用栈实现队列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,6 +88,8 @@
 		AF22A9FC250A443C006672EC /* Leet-code */ = {
 			isa = PBXGroup;
 			children = (
+				AF98F9BD257267C7001E1234 /* 队列 */,
+				AF98F9B12572626D001E1234 /* 栈 */,
 				AF636E91256604E60061E615 /* 链表 */,
 				AF22AA0C250B11CC006672EC /* Easy */,
 				AF22AA0E250B11F1006672EC /* Medium */,
@@ -100,7 +104,6 @@
 			children = (
 				AF22AA08250B0ED5006672EC /* _1_两数之和.swift */,
 				AF22AA04250A47C6006672EC /* _14_最长公共前缀.swift */,
-				AF22AA06250A4878006672EC /* _20_有效的括号.swift */,
 				AF22AA16250F17AF006672EC /* _520_检测大写字母.swift */,
 				AF22AA18250F1C45006672EC /* _231_2的幂.swift */,
 			);
@@ -142,6 +145,22 @@
 				AF636E92256605FE0061E615 /* ListNode.swift */,
 			);
 			path = "链表";
+			sourceTree = "<group>";
+		};
+		AF98F9B12572626D001E1234 /* 栈 */ = {
+			isa = PBXGroup;
+			children = (
+				AF98F9BE257267DB001E1234 /* _232_用栈实现队列.swift */,
+				AF22AA06250A4878006672EC /* _20_有效的括号.swift */,
+			);
+			path = "栈";
+			sourceTree = "<group>";
+		};
+		AF98F9BD257267C7001E1234 /* 队列 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = "队列";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +232,7 @@
 				AF22AA07250A4878006672EC /* _20_有效的括号.swift in Sources */,
 				AF22AA05250A47C6006672EC /* _14_最长公共前缀.swift in Sources */,
 				AF188F2E256B8A5000EBFF4D /* _203_删除链表元素.swift in Sources */,
+				AF98F9BF257267DB001E1234 /* _232_用栈实现队列.swift in Sources */,
 				AF22A9FE250A443C006672EC /* main.swift in Sources */,
 				AF188F31256B8AB000EBFF4D /* _83_删除排序链表中的重复元素.swift in Sources */,
 				AF188F35256B99E200EBFF4D /* _876_链表的中间结点.swift in Sources */,
