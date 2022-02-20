@@ -23,6 +23,7 @@ import Cocoa
 
 class 剑指_Offer_11_旋转数组的最小数字: Core {
 
+    // 暴力查找
     class Solution01 {
         func minArray(_ numbers: [Int]) -> Int {
             guard !numbers.isEmpty else { return 0 }
@@ -38,8 +39,27 @@ class 剑指_Offer_11_旋转数组的最小数字: Core {
         }
     }
     
+    // 二分查找,暴力查找辅助. 如果输入数组是不重复的,暴力查找就不需要
+    class Solution {
+        func minArray(_ numbers: [Int]) -> Int {
+            var left = 0
+            var right = numbers.count - 1
+            while left < right {
+                let mid = left + (right - left) / 2
+                if numbers[mid] > numbers[right] {
+                    left = mid + 1
+                } else if numbers[mid] < numbers[right] {
+                    right = mid
+                } else {
+                    right -= 1
+                }
+            }
+            return numbers[left]
+        }
+    }
+    
     override func run() {
-        print(Solution01().minArray([5,5,6,1,2,3,4]))
+        print(Solution01().minArray([5,5,6,6,1,1,2,3,4]))
     }
     
 }
