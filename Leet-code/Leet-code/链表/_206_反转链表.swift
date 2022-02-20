@@ -17,15 +17,9 @@
 
 import Cocoa
 
-class _206_反转链表: BaseClass {
+class _206_反转链表: Core {
     
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+    override func run() {
         let head    = ListNode(4)
         let first   = ListNode(5)
         let second  = ListNode(1)
@@ -40,7 +34,7 @@ class _206_反转链表: BaseClass {
     }
     
     /// 递归实现
-    static func reverseList(_ head: ListNode?) -> ListNode? {
+    func reverseList(_ head: ListNode?) -> ListNode? {
         guard head != nil && head?.next != nil else { return head }
         let newHead = reverseList(head?.next)
         head?.next?.next = head
@@ -58,7 +52,7 @@ class _206_反转链表: BaseClass {
     /// new   -> [ 5 -> 4 ]
     ///
     /// 非递归实现
-    static func reverseList1(_ head: ListNode?) -> ListNode? {
+    func reverseList1(_ head: ListNode?) -> ListNode? {
         var head = head
         var newHead: ListNode?
         while head != nil {

@@ -39,20 +39,14 @@
 
 import Cocoa
 
-class _20_有效的括号: BaseClass {
+class _20_有效的括号: Core {
     
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+    override func run() {
         let str = "{(()[dsad]{asda})}"
         print(self.isValid(str))
     }
     
-    static func isValid(_ s: String) -> Bool {
+    func isValid(_ s: String) -> Bool {
         // 异常处理
         guard !s.isEmpty else { return true }
         var handleStack: [Character] = []

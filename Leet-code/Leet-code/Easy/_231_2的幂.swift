@@ -30,20 +30,14 @@
 
 import Cocoa
 
-class _231_2的幂: BaseClass {
+class _231_2的幂: Core {
     
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+    override func run() {
         let n = 16;
         print(isPowerOfTwo(n))
     }
     
-    static func isPowerOfTwo(_ n: Int) -> Bool {
+    func isPowerOfTwo(_ n: Int) -> Bool {
         var varN = n;
         while true {
             varN = varN >> 2

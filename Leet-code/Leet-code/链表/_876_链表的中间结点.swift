@@ -30,14 +30,8 @@
 
 import Cocoa
 
-class _876_链表的中间结点: BaseClass {
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+class _876_链表的中间结点: Core {
+    override func run() {
         let head = ListNode(1)
         let first = ListNode(2)
         let second = ListNode(3)
@@ -51,7 +45,7 @@ class _876_链表的中间结点: BaseClass {
         print(middleNode(head))
     }
     
-    static func middleNode(_ head: ListNode?) -> ListNode? {
+    func middleNode(_ head: ListNode?) -> ListNode? {
         var slow = head
         var fast = head?.next
         while fast != nil {

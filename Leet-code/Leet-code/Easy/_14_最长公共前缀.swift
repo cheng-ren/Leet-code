@@ -27,20 +27,15 @@
 
 import Cocoa
 
-class _14_最长公共前缀: BaseClass {
+class _14_最长公共前缀: Core {
     
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
+    override func run() {
         
         let strs = ["cacecar","cacecar","car"]
         print(longestCommonPrefix(strs))
     }
     
-    class func longestCommonPrefix(_ strs: [String]) -> String {
+    func longestCommonPrefix(_ strs: [String]) -> String {
         if strs.isEmpty { return "" }
         if strs.count == 1 { return strs[0] }
         

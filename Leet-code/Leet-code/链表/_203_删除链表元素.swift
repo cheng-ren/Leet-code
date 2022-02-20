@@ -17,13 +17,8 @@
 
 import Cocoa
 
-class _203_删除链表元素: BaseClass {
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
+class _203_删除链表元素: Core {
+    override func run() {
         
         let head = ListNode(4)
         let first = ListNode(5)
@@ -36,7 +31,7 @@ class _203_删除链表元素: BaseClass {
         print(removeElements(head, 5))
     }
     
-    static func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
+    func removeElements(_ head: ListNode?, _ val: Int) -> ListNode? {
         var head = head
         var next = head
         var pre: ListNode?

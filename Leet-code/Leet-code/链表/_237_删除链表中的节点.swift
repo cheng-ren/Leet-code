@@ -33,14 +33,8 @@
 
 import Cocoa
 
-class _237_删除链表中的节点: BaseClass {
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+class _237_删除链表中的节点: Core {
+    override func run() {
         let head = ListNode(4)
         let first = ListNode(5)
         let second = ListNode(1)
@@ -52,7 +46,7 @@ class _237_删除链表中的节点: BaseClass {
         print(deleteNode(head))
     }
     
-    static func deleteNode(_ node: ListNode?) {
+    func deleteNode(_ node: ListNode?) {
         guard let node = node else { return }
         node.val = node.next?.val ?? 0
         node.next = node.next?.next

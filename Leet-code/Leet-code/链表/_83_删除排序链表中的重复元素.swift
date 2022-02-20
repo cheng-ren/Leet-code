@@ -23,14 +23,8 @@
 
 import Cocoa
 
-class _83_删除排序链表中的重复元素: BaseClass {
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+class _83_删除排序链表中的重复元素: Core {
+    override func run() {
         let head = ListNode(1)
         let first = ListNode(2)
         let second = ListNode(2)
@@ -42,7 +36,7 @@ class _83_删除排序链表中的重复元素: BaseClass {
         print(deleteDuplicates(head))
     }
     
-    static func deleteDuplicates(_ head: ListNode?) -> ListNode? {
+    func deleteDuplicates(_ head: ListNode?) -> ListNode? {
         guard head != nil else { return nil }
         var nextNode = head
         while nextNode?.next != nil {

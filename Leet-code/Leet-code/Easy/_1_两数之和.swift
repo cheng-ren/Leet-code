@@ -23,20 +23,15 @@
 
 import Cocoa
 
-class _1_两数之和: BaseClass {
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
+class _1_两数之和: Core {
+    override func run() {
         
         let nums = [2, 7, 11, 15]
         let target = 9
         print(twoSum(nums, target))
     }
     
-    static func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
+    func twoSum(_ nums: [Int], _ target: Int) -> [Int] {
         var dict: [Int: Int] = [:]
         
         for (i, n) in nums.enumerated() {

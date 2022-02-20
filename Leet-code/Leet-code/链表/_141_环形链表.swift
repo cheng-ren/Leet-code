@@ -24,14 +24,8 @@
 
 import Cocoa
 
-class _141_环形链表: BaseClass {
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+class _141_环形链表: Core {
+    override func run() {
         let head = ListNode(4)
         let first = ListNode(5)
         let second = ListNode(1)
@@ -44,7 +38,7 @@ class _141_环形链表: BaseClass {
         print(hasCycle(head))
     }
     
-    static func hasCycle(_ head: ListNode?) -> Bool {
+    func hasCycle(_ head: ListNode?) -> Bool {
         guard head != nil && head?.next != nil else { return false }
         var slow = head
         var fast = head?.next

@@ -57,14 +57,9 @@
 
 import Cocoa
 
-class _232_用栈实现队列: BaseClass {
+class _232_用栈实现队列: Core {
 
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
+    override func run() {
         let obj = MyQueue()
         obj.push(0)
         obj.push(1)

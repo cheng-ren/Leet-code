@@ -29,20 +29,14 @@
 
 import Cocoa
 
-class _520_检测大写字母: BaseClass {
+class _520_检测大写字母: Core {
     
-    override class func run() {
-        super.run()
-        defer {
-            stopTiming()
-        }
-        startTiming()
-        
+    override func run() {
         let str = "mL"
         print(detectCapitalUse(str))
     }
     
-    static func detectCapitalUse(_ word: String) -> Bool {
+    func detectCapitalUse(_ word: String) -> Bool {
         guard word.count > 0 else { return false }
         guard word.count > 1 else { return true }
         guard word != word.uppercased() else { return true }

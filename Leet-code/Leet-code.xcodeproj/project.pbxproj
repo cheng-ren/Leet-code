@@ -14,14 +14,17 @@
 		AF22AA05250A47C6006672EC /* _14_最长公共前缀.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA04250A47C6006672EC /* _14_最长公共前缀.swift */; };
 		AF22AA07250A4878006672EC /* _20_有效的括号.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA06250A4878006672EC /* _20_有效的括号.swift */; };
 		AF22AA09250B0ED5006672EC /* _1_两数之和.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA08250B0ED5006672EC /* _1_两数之和.swift */; };
-		AF22AA13250B12C4006672EC /* BaseClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA12250B12C4006672EC /* BaseClass.swift */; };
-		AF22AA15250B12FC006672EC /* Perform.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA14250B12FC006672EC /* Perform.swift */; };
 		AF22AA17250F17AF006672EC /* _520_检测大写字母.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA16250F17AF006672EC /* _520_检测大写字母.swift */; };
 		AF22AA19250F1C45006672EC /* _231_2的幂.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF22AA18250F1C45006672EC /* _231_2的幂.swift */; };
 		AF32B2FD256B856F0097A0FA /* _141_环形链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF32B2FC256B856F0097A0FA /* _141_环形链表.swift */; };
+		AF53B25927C243AA00DD8E01 /* 剑指 Offer 10- II. 青蛙跳台阶问题.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53B25827C243AA00DD8E01 /* 剑指 Offer 10- II. 青蛙跳台阶问题.swift */; };
+		AF53B25B27C24AE800DD8E01 /* 剑指 Offer 11. 旋转数组的最小数字.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF53B25A27C24AE800DD8E01 /* 剑指 Offer 11. 旋转数组的最小数字.swift */; };
 		AF636E88256570580061E615 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E87256570580061E615 /* _206_反转链表.swift */; };
 		AF636E93256605FE0061E615 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E92256605FE0061E615 /* ListNode.swift */; };
 		AF636ECF25663A630061E615 /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */; };
+		AF956CD027C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF956CCF27C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift */; };
+		AF956CD227C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF956CD127C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift */; };
+		AF956CD827C0D4F700851CE0 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF956CD727C0D4F700851CE0 /* Core.swift */; };
 		AF98F9BF257267DB001E1234 /* _232_用栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF98F9BE257267DB001E1234 /* _232_用栈实现队列.swift */; };
 /* End PBXBuildFile section */
 
@@ -46,14 +49,17 @@
 		AF22AA04250A47C6006672EC /* _14_最长公共前缀.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_14_最长公共前缀.swift"; sourceTree = "<group>"; };
 		AF22AA06250A4878006672EC /* _20_有效的括号.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_20_有效的括号.swift"; sourceTree = "<group>"; };
 		AF22AA08250B0ED5006672EC /* _1_两数之和.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_1_两数之和.swift"; sourceTree = "<group>"; };
-		AF22AA12250B12C4006672EC /* BaseClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseClass.swift; sourceTree = "<group>"; };
-		AF22AA14250B12FC006672EC /* Perform.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Perform.swift; sourceTree = "<group>"; };
 		AF22AA16250F17AF006672EC /* _520_检测大写字母.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_520_检测大写字母.swift"; sourceTree = "<group>"; };
 		AF22AA18250F1C45006672EC /* _231_2的幂.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_231_2的幂.swift"; sourceTree = "<group>"; };
 		AF32B2FC256B856F0097A0FA /* _141_环形链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_141_环形链表.swift"; sourceTree = "<group>"; };
+		AF53B25827C243AA00DD8E01 /* 剑指 Offer 10- II. 青蛙跳台阶问题.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 10- II. 青蛙跳台阶问题.swift"; sourceTree = "<group>"; };
+		AF53B25A27C24AE800DD8E01 /* 剑指 Offer 11. 旋转数组的最小数字.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 11. 旋转数组的最小数字.swift"; sourceTree = "<group>"; };
 		AF636E87256570580061E615 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		AF636E92256605FE0061E615 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
+		AF956CCF27C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 09. 用两个栈实现队列.swift"; sourceTree = "<group>"; };
+		AF956CD127C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 10- I. 斐波那契数列.swift"; sourceTree = "<group>"; };
+		AF956CD727C0D4F700851CE0 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
 		AF98F9BE257267DB001E1234 /* _232_用栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_232_用栈实现队列.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -88,6 +94,7 @@
 		AF22A9FC250A443C006672EC /* Leet-code */ = {
 			isa = PBXGroup;
 			children = (
+				AF956CCE27C0BF7700851CE0 /* 剑指Offer */,
 				AF98F9BD257267C7001E1234 /* 队列 */,
 				AF98F9B12572626D001E1234 /* 栈 */,
 				AF636E91256604E60061E615 /* 链表 */,
@@ -113,8 +120,7 @@
 		AF22AA0D250B11DF006672EC /* Other */ = {
 			isa = PBXGroup;
 			children = (
-				AF22AA12250B12C4006672EC /* BaseClass.swift */,
-				AF22AA14250B12FC006672EC /* Perform.swift */,
+				AF956CD727C0D4F700851CE0 /* Core.swift */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -145,6 +151,17 @@
 				AF636E92256605FE0061E615 /* ListNode.swift */,
 			);
 			path = "链表";
+			sourceTree = "<group>";
+		};
+		AF956CCE27C0BF7700851CE0 /* 剑指Offer */ = {
+			isa = PBXGroup;
+			children = (
+				AF956CCF27C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift */,
+				AF956CD127C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift */,
+				AF53B25827C243AA00DD8E01 /* 剑指 Offer 10- II. 青蛙跳台阶问题.swift */,
+				AF53B25A27C24AE800DD8E01 /* 剑指 Offer 11. 旋转数组的最小数字.swift */,
+			);
+			path = "剑指Offer";
 			sourceTree = "<group>";
 		};
 		AF98F9B12572626D001E1234 /* 栈 */ = {
@@ -195,6 +212,7 @@
 				TargetAttributes = {
 					AF22A9F9250A443C006672EC = {
 						CreatedOnToolsVersion = 11.7;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -221,12 +239,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AF956CD827C0D4F700851CE0 /* Core.swift in Sources */,
 				AF22AA09250B0ED5006672EC /* _1_两数之和.swift in Sources */,
 				AF22AA17250F17AF006672EC /* _520_检测大写字母.swift in Sources */,
-				AF22AA15250B12FC006672EC /* Perform.swift in Sources */,
-				AF22AA13250B12C4006672EC /* BaseClass.swift in Sources */,
 				AF22AA19250F1C45006672EC /* _231_2的幂.swift in Sources */,
+				AF53B25B27C24AE800DD8E01 /* 剑指 Offer 11. 旋转数组的最小数字.swift in Sources */,
 				AF636ECF25663A630061E615 /* _237_删除链表中的节点.swift in Sources */,
+				AF956CD027C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift in Sources */,
+				AF956CD227C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift in Sources */,
 				AF32B2FD256B856F0097A0FA /* _141_环形链表.swift in Sources */,
 				AF636E88256570580061E615 /* _206_反转链表.swift in Sources */,
 				AF22AA07250A4878006672EC /* _20_有效的括号.swift in Sources */,
@@ -235,6 +255,7 @@
 				AF98F9BF257267DB001E1234 /* _232_用栈实现队列.swift in Sources */,
 				AF22A9FE250A443C006672EC /* main.swift in Sources */,
 				AF188F31256B8AB000EBFF4D /* _83_删除排序链表中的重复元素.swift in Sources */,
+				AF53B25927C243AA00DD8E01 /* 剑指 Offer 10- II. 青蛙跳台阶问题.swift in Sources */,
 				AF188F35256B99E200EBFF4D /* _876_链表的中间结点.swift in Sources */,
 				AF636E93256605FE0061E615 /* ListNode.swift in Sources */,
 			);
@@ -359,10 +380,17 @@
 		AF22AA02250A443C006672EC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RJ3HT64AS6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -370,9 +398,15 @@
 		AF22AA03250A443C006672EC /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = RJ3HT64AS6;
 				ENABLE_HARDENED_RUNTIME = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 			};
