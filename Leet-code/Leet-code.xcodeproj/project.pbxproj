@@ -22,6 +22,7 @@
 		AF636E88256570580061E615 /* _206_反转链表.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E87256570580061E615 /* _206_反转链表.swift */; };
 		AF636E93256605FE0061E615 /* ListNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636E92256605FE0061E615 /* ListNode.swift */; };
 		AF636ECF25663A630061E615 /* _237_删除链表中的节点.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */; };
+		AF85C8C727C470AB00666BAF /* RCObject.m in Sources */ = {isa = PBXBuildFile; fileRef = AF85C8C627C470AB00666BAF /* RCObject.m */; };
 		AF956CD027C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF956CCF27C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift */; };
 		AF956CD227C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF956CD127C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift */; };
 		AF956CD827C0D4F700851CE0 /* Core.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF956CD727C0D4F700851CE0 /* Core.swift */; };
@@ -57,6 +58,9 @@
 		AF636E87256570580061E615 /* _206_反转链表.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_206_反转链表.swift"; sourceTree = "<group>"; };
 		AF636E92256605FE0061E615 /* ListNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListNode.swift; sourceTree = "<group>"; };
 		AF636ECE25663A630061E615 /* _237_删除链表中的节点.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "_237_删除链表中的节点.swift"; sourceTree = "<group>"; };
+		AF85C8C427C470AB00666BAF /* Leet-code-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Leet-code-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF85C8C527C470AB00666BAF /* RCObject.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RCObject.h; sourceTree = "<group>"; };
+		AF85C8C627C470AB00666BAF /* RCObject.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RCObject.m; sourceTree = "<group>"; };
 		AF956CCF27C0BFBC00851CE0 /* 剑指 Offer 09. 用两个栈实现队列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 09. 用两个栈实现队列.swift"; sourceTree = "<group>"; };
 		AF956CD127C0C50600851CE0 /* 剑指 Offer 10- I. 斐波那契数列.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "剑指 Offer 10- I. 斐波那契数列.swift"; sourceTree = "<group>"; };
 		AF956CD727C0D4F700851CE0 /* Core.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Core.swift; sourceTree = "<group>"; };
@@ -121,6 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				AF956CD727C0D4F700851CE0 /* Core.swift */,
+				AF85C8C527C470AB00666BAF /* RCObject.h */,
+				AF85C8C627C470AB00666BAF /* RCObject.m */,
+				AF85C8C427C470AB00666BAF /* Leet-code-Bridging-Header.h */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -240,6 +247,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				AF956CD827C0D4F700851CE0 /* Core.swift in Sources */,
+				AF85C8C727C470AB00666BAF /* RCObject.m in Sources */,
 				AF22AA09250B0ED5006672EC /* _1_两数之和.swift in Sources */,
 				AF22AA17250F17AF006672EC /* _520_检测大写字母.swift in Sources */,
 				AF22AA19250F1C45006672EC /* _231_2的幂.swift in Sources */,
@@ -390,6 +398,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Leet-code/Other/Leet-code-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
@@ -408,6 +417,7 @@
 					"@loader_path/../Frameworks",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Leet-code/Other/Leet-code-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
